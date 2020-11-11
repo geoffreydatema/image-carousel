@@ -1,0 +1,19 @@
+Objectives
+
+    In this assignment, you will use event listeners to build an image carousel.
+
+
+Requirements
+
+    A single, delegated click event must be used to add the following functionality:
+        Next image button
+        Previous image button
+
+    When the image is clicked, it should become fullscreen — when clicked again it should revert to its previous size
+
+    A single keyboard event must be used to read the left and right arrow keys, showing the next and previous images respectively
+
+    To show new images, a new <img> element must be dynamically inserted into the DOM
+    
+    (Extra Challenge) When at the end of the image set, clicking next (or using the arrow key) will wrap around to the beginning of the set and show the first image (and vice versa for the first image). Note that this feature is not currently implemented in the example.
+    
